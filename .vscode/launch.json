@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Test1012",
+            "request": "launch",
+            "mainClass": "Test1012",
+            "projectName": "test_87f0ee38"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1927",
+            "request": "launch",
+            "mainClass": "Test1927",
+            "projectName": "test_87f0ee38"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1935",
+            "request": "launch",
+            "mainClass": "Test1935",
+            "projectName": "test_87f0ee38"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1764",
+            "request": "launch",
+            "mainClass": "test1764",
+            "projectName": "test_87f0ee38"
+        },
+        {
+            "type": "java",
+            "name": "Launch text",
+            "request": "launch",
+            "mainClass": "text",
+            "projectName": "test_87f0ee38"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1026",
+            "request": "launch",
+            "mainClass": "Test1026",
+            "projectName": "test_87f0ee38"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test14888",
+            "request": "launch",
+            "mainClass": "Test14888",
+            "projectName": "test_87f0ee38"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2504",
+            "request": "launch",
+            "mainClass": "Test2504",
+            "projectName": "test_87f0ee38"
+        }
+    ]
+}
