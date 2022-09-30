@@ -16,6 +16,9 @@ public class Test1600 {
             width=size;
         }
         System.out.println(width*height);*/
+
+        //이분탐색을 통해 전체 배열에서 탐색 범위를 좁혀가
+        //본래 이중배열이 가리키는 값을 찾는다.
         int size=Integer.parseInt(br.readLine());
         int target=Integer.parseInt(br.readLine());
 
