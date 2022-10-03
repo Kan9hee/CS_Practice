@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test1463",
+            "request": "launch",
+            "mainClass": "Test1463",
+            "projectName": "test_32f26b74"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1149",
+            "request": "launch",
+            "mainClass": "Test1149",
+            "projectName": "test_32f26b74"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test10828",
+            "request": "launch",
+            "mainClass": "Test10828",
+            "projectName": "test_32f26b74"
+        },
+        {
+            "type": "java",
             "name": "Launch Test10845",
             "request": "launch",
             "mainClass": "Test10845",
