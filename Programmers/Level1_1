@@ -1,0 +1,36 @@
+import java.util.*;
+
+class Solution {
+    public String solution(String[] survey, int[] choices) {
+        String answer = "";
+        Map<String, Integer> resultMap = new HashMap<>();
+        String[] groupList = {"RT","CF","JM","AN"};
+        for (int i = 0; i < 4; i++) {
+            resultMap.put(groupList[i], 0);
+        }
+        
+        for (int i = 0; i < survey.length; i++) {
+            if(choices[i] != 4){
+                for (String group : groupList) {
+                    if(group.contains(survey[i].substring(1))){
+                        boolean type = group.equals(survey[i]);
+                        int currentScore = resultMap.get(group);
+                        int calculateScore = type ? currentScore + (4 - choices[i]) : currentScore + (choices[i] - 4); 
+                        resultMap.put(group, calculateScore);
+                    }
+                }
+            }
+        }
+
+        for (String group : groupList) {
+            int finalScore = resultMap.get(group);
+            if(finalScore >= 0){
+                answer += group.substring(0,1);
+            }else{
+                answer += group.substring(1,2);
+            }
+        }
+
+        return answer;
+    }
+}
