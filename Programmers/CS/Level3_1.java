@@ -1,3 +1,4 @@
+package CS;
 public class Level3_1 {
     static boolean[] binary;
     static int treeLen, result;

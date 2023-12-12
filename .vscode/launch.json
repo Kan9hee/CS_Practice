@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test16234",
+            "request": "launch",
+            "mainClass": "Test16234",
+            "projectName": "CS_Practice_626465c6"
+        },
+        {
+            "type": "java",
+            "name": "Test14497",
+            "request": "launch",
+            "mainClass": "Test14497",
+            "projectName": "CS_Practice_626465c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Test1926",
             "request": "launch",
             "mainClass": "Test1926",

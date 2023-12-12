@@ -1,3 +1,4 @@
+package CS;
 public class Level2_11 {
     public static void main(String[] args) {
         int[][] balls = { { 7, 7 }, { 2, 7 }, { 7, 3 } };

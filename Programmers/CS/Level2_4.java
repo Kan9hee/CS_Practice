@@ -1,3 +1,4 @@
+package CS;
 import java.util.*;
 
 public class Level2_4 {

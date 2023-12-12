@@ -1,3 +1,4 @@
+package CS;
 public class Level3_5 {
     static boolean[] check;
     static String[] staticWords;

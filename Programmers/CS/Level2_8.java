@@ -1,3 +1,4 @@
+package CS;
 public class Level2_8 {
 
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package CS;
 public class Level2_6 {
     public static void main(String[] args) {
         System.out.println(solution(2554));
