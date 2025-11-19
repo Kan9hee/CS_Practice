@@ -1,8 +1,8 @@
-package SWEA;
+package SWEA.D3;
 
 import java.io.*;
 
-public class D3_1 {
+public class Test2805 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int testCount = Integer.parseInt(br.readLine());
